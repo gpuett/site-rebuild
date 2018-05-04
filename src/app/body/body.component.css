@@ -13,3 +13,12 @@ a:hover {
   border-radius: 20px;
   font-size: 10px;
 }
+.header {
+  border-bottom: 1px solid grey;
+  max-width: 650px;
+}
+.new {
+  border: 1px solid black;
+  max-width: 650px;
+  min-height: 300px;
+}
