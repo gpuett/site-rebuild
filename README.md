@@ -6,15 +6,16 @@
 
 ## Description
 
-A website created with Angular to recreate the Metacritic front page.
+A website created with Angular to recreate the <a href="www.metacritic.com">Metacritic</a> front page.
 
 ### Features
 * Recreate style and layout of Metacritic's front page.
 * View ratings for the newest movies, games, television shows, and music.
+* Metascore display implemented for "Editors' Picks" section.
 
 ### Future/Desired Features
 * Add carousel to new and notable section of body component
-* Implement dynamic rating display that is tied to object property of metascore.
+* Implement dynamic rating display that is tied to object property of metascore for all media on page.
 * Make dropdown menus work properly.
 
 ## Setup/Installation Requirements
