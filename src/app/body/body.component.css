@@ -41,3 +41,10 @@ img {
   font-size: 12px;
   font-weight: bold;
 }
+.mg {
+  max-width: 680px;
+  font-size: 12px;
+}
+.table {
+  background-color: beige;
+}

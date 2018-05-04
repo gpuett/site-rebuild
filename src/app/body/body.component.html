@@ -27,12 +27,32 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="mg row">
       <div class="movies col col-md">
-
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Movies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let movie of movies">
+              <th scope="row">{{movie.title}}<br>{{movie.rating}}</th>
+            </tr>
+        </table>
       </div>
-      <div class="games col col-md">
-
+      <div class="movies col col-md">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Games</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let movie of movies">
+              <th scope="row">{{movie.title}}<br>{{movie.rating}}</th>
+            </tr>
+        </table>
       </div>
     </div>
     <div class="row">
