@@ -13,3 +13,18 @@ a:hover {
   color: gold;
   text-decoration: none;
 }
+.rating {
+  max-width: 50px;
+  max-height: 50px;
+  position: absolute;
+  top: 33px;
+  right: 35px;
+}
+.score {
+  position: absolute;
+  top: 39px;
+  right: 45px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}

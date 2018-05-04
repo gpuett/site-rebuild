@@ -4,7 +4,9 @@
   <div class="col col-md" *ngFor="let media of editorMedia">
     <div class="picks">
       <br>
-      <a href="#"><img src="{{media.imgString}}"></a>
+      <a href="#"><img class="image" src="{{media.imgString}}"></a>
+      <img class="rating" src="{{media.subImg}}">
+      <p class="score">{{media.metascore}}</p>
       <br>
       <a href="#">{{media.title}}</a>
       <br>
