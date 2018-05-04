@@ -22,4 +22,22 @@ a:hover {
   max-width: 650px;
   min-height: 300px;
   background-color: beige;
+  padding: 5px;
+}
+img {
+  border-top: 30px;
+  border: 12px solid black;
+  border-bottom: 50px solid black;
+}
+#more {
+  float: right;
+  font-size: 10px;
+}
+.section {
+  min-height: 80px;
+}
+.titles {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
 }

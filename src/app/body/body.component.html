@@ -9,7 +9,23 @@
     </div>
     <br>
     <div class="new">
-
+      <div class="section row">
+        <div class="col col-md-10">
+        </div>
+        <div class="col col-md-2">
+          <a id="more" href="#">See more >></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md" *ngFor="let thumb of thumbs">
+          <img src="{{thumb.imgString}}">
+        </div>
+      </div>
+      <div class="row titles">
+        <div class="col col-md" *ngFor="let thumb of thumbs">
+          <a href="#">{{thumb.title}}</a>
+        </div>
+      </div>
     </div>
     <div class="row">
       <div class="movies col col-md">
@@ -29,6 +45,6 @@
     </div>
   </div>
   <div id="ads" class="col col-md-4">
-  
+
   </div>
 </div>

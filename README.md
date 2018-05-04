@@ -15,6 +15,7 @@ A website created with Angular to recreate the Metacritic front page.
 ### Future/Desired Features
 * Add carousel to new and notable section of body component
 * Implement dynamic rating display that is tied to object property of metascore.
+* Make dropdown menus work properly.
 
 ## Setup/Installation Requirements
 1. Clone this repository
@@ -36,6 +37,6 @@ Please do not contact.
 
 ### License
 
-*{This software is licensed under the MIT license}*
+*This software is licensed under the MIT license*
 
-Copyright (c) 2018 **_{Garnett Puett}_**
+Copyright (c) 2018 **_Garnett Puett_**
