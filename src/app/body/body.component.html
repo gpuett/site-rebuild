@@ -37,7 +37,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let movie of movies">
-              <th scope="row">{{movie.title}}<br>{{movie.rating}}</th>
+              <th scope="row"><a href="#">{{movie.title}}</a><br>{{movie.rating}}</th>
             </tr>
             <tr>
               <th scope="row">All New Movies>></th>
@@ -53,7 +53,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let game of games">
-              <th scope="row">{{game.title}}<br>{{game.platform}}</th>
+              <th scope="row"><a href="#">{{game.title}}</a><br>{{game.platform}}</th>
             </tr>
             <tr>
               <th scope="row">All New Games>></th>
