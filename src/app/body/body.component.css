@@ -41,7 +41,7 @@ img {
   font-size: 12px;
   font-weight: bold;
 }
-.mg {
+.mg, .tm {
   max-width: 680px;
   font-size: 11px;
 }

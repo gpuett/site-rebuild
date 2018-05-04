@@ -61,14 +61,42 @@
         </table>
       </div>
     </div>
-    <div class="row">
-      <div class="tv col col-md">
-
+    <div class="tm row">
+      <div class="movies col col-md">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">TV</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let show of shows">
+              <th scope="row"><a href="#">{{show.title}}</a><br>{{show.channel}}</th>
+            </tr>
+            <tr>
+              <th scope="row">All New TV>></th>
+            </tr>
+        </table>
       </div>
-      <div class="music col col-md">
-
+      <div class="movies col col-md">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Music</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let album of albums">
+              <th scope="row"><a href="#">{{album.title}}</a><br>{{album.artist}}</th>
+            </tr>
+            <tr>
+              <th scope="row">All New Music>></th>
+            </tr>
+        </table>
       </div>
     </div>
+
+
   </div>
   <div id="ads" class="col col-md-4">
 
