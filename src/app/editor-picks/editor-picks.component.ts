@@ -11,7 +11,7 @@ export class EditorPicksComponent {
   // @Input() childMedia: Media[];
   @Output() clickSender = new EventEmitter();
 
-  childMedia: Media[] = [
+  editorMedia: Media[] = [
     new Media("METASCORE PREDICTIONS","Here are the predictions from over 4,500 Metacritic users for the final Metascores for summer's 30 biggest films.",'./../assets/metascore_predictions.png'),
     new Media("TULLY","Jason Reitman re-teams with his Juno screenwriter Diablo Cody for a new film that ranks among the director's best.",'./../assets/tully.jpg'),
     new Media("10 FILMS TO SEE IN MAY","Preview this month's top theatrical releases, including Deadpool 2 and Solo: A Star Wars Story.",'./../assets/preview.png'),
