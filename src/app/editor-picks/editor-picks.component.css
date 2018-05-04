@@ -1,0 +1,8 @@
+.col{
+  border-top: 1px solid grey;
+}
+.picks {
+  border-bottom: 1px solid gold;
+  max-width: 250px;
+  min-height:350px;
+}
