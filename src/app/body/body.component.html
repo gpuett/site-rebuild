@@ -39,6 +39,9 @@
             <tr *ngFor="let movie of movies">
               <th scope="row">{{movie.title}}<br>{{movie.rating}}</th>
             </tr>
+            <tr>
+              <th scope="row">All New Movies>></th>
+            </tr>
         </table>
       </div>
       <div class="movies col col-md">
@@ -49,8 +52,11 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let movie of movies">
-              <th scope="row">{{movie.title}}<br>{{movie.rating}}</th>
+            <tr *ngFor="let game of games">
+              <th scope="row">{{game.title}}<br>{{game.platform}}</th>
+            </tr>
+            <tr>
+              <th scope="row">All New Games>></th>
             </tr>
         </table>
       </div>
