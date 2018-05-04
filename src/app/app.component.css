@@ -1,3 +1,4 @@
-body {
-  background-color: blue;
+.container {
+  max-width: 1050px;
+  padding: 10px;
 }

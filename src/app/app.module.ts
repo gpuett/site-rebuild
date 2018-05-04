@@ -5,13 +5,15 @@ import { FormsModule }  from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { EditorPicksComponent } from './editor-picks/editor-picks.component';
+import { BodyComponent } from './body/body.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    EditorPicksComponent
+    EditorPicksComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,

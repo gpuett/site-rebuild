@@ -11,7 +11,11 @@ A website created with Angular to recreate Metacritic.
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-
+|****|  |  |
+|****|  |  |
+|****|  |  |
+|****|  |  |
+|****|  |  |
 
 ## Setup/Installation Requirements
 
