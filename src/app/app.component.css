@@ -2,3 +2,13 @@
   max-width: 1050px;
   padding: 10px;
 }
+#search {
+  min-width: 500px;
+  border-radius: 30px;
+}
+#account {
+  border: 1px solid black;
+  border-radius: 30px;
+  min-width: 175px;
+  text-align: center;
+}

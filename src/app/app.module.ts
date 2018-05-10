@@ -8,7 +8,6 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { masterFirebaseConfig } from './api-keys';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { EditorPicksComponent } from './editor-picks/editor-picks.component';
 import { BodyComponent } from './body/body.component';
 
@@ -22,7 +21,6 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     EditorPicksComponent,
     BodyComponent
   ],
