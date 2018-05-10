@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Media } from './models/media.model';
+import { Pick } from './models/pick.model';
 import { Thumb } from './models/thumb.model';
 import { Movie } from './models/movie.model';
 import { Game } from './models/game.model';
@@ -15,6 +15,7 @@ export class MediaService {
   games: FirebaseListObservable<any[]>;
   shows: FirebaseListObservable<any[]>;
   albums: FirebaseListObservable<any[]>;
+  picks: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
     this.movies = database.list('media/1/movies');
@@ -22,6 +23,7 @@ export class MediaService {
     this.games = database.list('media/2/games');
     this.shows = database.list('media/3/shows');
     this.albums = database.list('media/4/albums');
+    this.picks = database.list('media/5/picks');
   }
 
   getMovies() {
@@ -38,6 +40,9 @@ export class MediaService {
   }
   getAlbums() {
     return this.albums;
+  }
+  getPicks() {
+    return this.picks;
   }
 
 }

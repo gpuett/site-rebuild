@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Media } from '../models/media.model';
 import { Thumb } from '../models/thumb.model';
 import { Movie } from '../models/movie.model';
 import { Game } from '../models/game.model';

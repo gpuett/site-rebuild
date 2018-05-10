@@ -1,16 +1,16 @@
 <br>
 <h4>EDITORS' PICKS</h4>
 <div class="row">
-  <div class="col col-md" *ngFor="let media of editorMedia">
+  <div class="col col-md" *ngFor="let pick of picks | async">
     <div class="picks">
       <br>
-      <a href="#"><img class="image" src="{{media.imgString}}"></a>
-      <a href="#"><img class="rating" src="{{media.subImg}}"></a>
-      <a href="#"><p class="score">{{media.metascore}}</p></a>
+      <a href="#"><img class="image" src="{{pick.imgString}}"></a>
+      <a href="#"><img class="rating" src="{{pick.subImg}}"></a>
+      <a href="#"><p class="score">{{pick.metascore}}</p></a>
       <br>
-      <a href="#">{{media.title}}</a>
+      <a href="#">{{pick.title}}</a>
       <br>
-      <a class="descrip" href="#"><font size="1">{{media.description}}</font></a>
+      <a class="descrip" href="#"><font size="1">{{pick.description}}</font></a>
     </div>
   </div>
 </div>

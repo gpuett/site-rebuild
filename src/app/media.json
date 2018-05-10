@@ -188,7 +188,33 @@
 		}, {
 			"title": "Last Will Standing",
 			"artist": "Willie Nelson",
-			"metascore": 81		
+			"metascore": 81
 						}]
+	}, {
+		"picks": [{
+			"title": "METASCORE PREDICTIONS",
+			"description": "Here are the predictions from over 4,500 Metacritic users for the final Metascores for summer's 30 biggest films.",
+			"imgString": "./../assets/metascore_predictions.png",
+			"subImg": "./../assets/favorable.png",
+			"metascore": "??"
+		}, {
+			"title": "TULLY",
+			"description": "Jason Reitman re-teams with his Juno screenwriter Diablo Cody for a new film that ranks among the director's best.",
+			"imgString": "./../assets/tully.jpg",
+			"subImg": "./../assets/favorable.png",
+			"metascore": "76"
+		}, {
+			"title": "10 FILMS TO SEE IN MAY",
+			"description": "Preview this month's top theatrical releases, including Deadpool 2 and Solo: A Star Wars Story.",
+			"imgString": "./../assets/preview.png",
+			"subImg": "http://www.metacritic.com/images/buttons/hpb/Article-00.png",
+			"metascore": ""
+		}, {
+			"title": "DONKEY KONG COUNTRY",
+			"description": "The 2014 Wii U platformer Tropical Freeze comes to the Switch this week in a new port that critics seem to like.",
+			"imgString": "./../assets/dk.jpg",
+			"subImg": "./../assets/favorable.png",
+			"metascore": "87"
+				}]
 		}]
 }
