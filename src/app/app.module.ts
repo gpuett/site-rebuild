@@ -10,6 +10,11 @@ import { masterFirebaseConfig } from './api-keys';
 import { AppComponent } from './app.component';
 import { EditorPicksComponent } from './editor-picks/editor-picks.component';
 import { BodyComponent } from './body/body.component';
+import { MoviesComponent } from './movies/movies.component';
+import { GamesComponent } from './games/games.component';
+import { TvComponent } from './tv/tv.component';
+import { MusicComponent } from './music/music.component';
+import { HomeComponent } from './home/home.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -22,7 +27,12 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     EditorPicksComponent,
-    BodyComponent
+    BodyComponent,
+    MoviesComponent,
+    GamesComponent,
+    TvComponent,
+    MusicComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

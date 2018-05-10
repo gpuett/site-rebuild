@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="./assets/logo.png"></a>
+  <a class="navbar-brand" routerLink=''><img src="./assets/logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
   </button>
@@ -9,22 +9,22 @@
   <div class="navbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" routerLink="movies">
           <font color="black">Movies</font>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" routerLink="games">
           <font color="black">Games</font>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" routerLink="tv">
           <font color="black">TV</font>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" routerLink="music">
           <font color="black">Music</font>
         </a>
       </li>
@@ -42,7 +42,5 @@
 </nav>
 
 <div class="container">
-  <app-editor-picks></app-editor-picks>
-  <br>
-  <app-body></app-body>
+  <router-outlet></router-outlet>
 </div>
