@@ -1,0 +1,68 @@
+{
+	"media": [{
+		"thumbs": [{
+			"title": "The 12th Man",
+			"score": 79,
+			"imgString": "../assets/12th.jpg"
+		}, {
+			"title": "Tully",
+			"score": 77,
+			"imgString": "../assets/tully2.jpg"
+		}, {
+			"title": "Manhunt",
+			"score": 70,
+			"imgString": "../assets/manhunt.jpg"
+		}, {
+			"title": "Avengers: Infinity War",
+			"score": 68,
+			"imgString": "../assets/avengers.jpg"
+		}, {
+			"title": "Overboard",
+			"score": 45,
+			"imgString": "../assets/overboard.jpg"
+		}]
+
+	}, {
+		"movies": [{
+			"title": "Bad Samaritan",
+			"rating": "R",
+			"metascore": 44
+		}, {
+			"title": "Traffik",
+			"rating": "R",
+			"metascore": 37
+		}, {
+			"title": "Super Troopers 2",
+			"rating": "R",
+			"metascore": 40
+		}, {
+			"title": "I Feel Pretty",
+			"rating": "PG-13",
+			"metascore": 48
+		}, {
+			"title": "Sgt. Stubby: An American Hero",
+			"rating": "PG",
+			"metascore": 57
+		}, {
+			"title": "Rampage",
+			"rating": "PG-13",
+			"metascore": 45
+		}, {
+			"title": "Blumhouse's Truth or Dare",
+			"rating": "PG-13",
+			"metascore": 35
+		}, {
+			"title": "Beirut",
+			"rating": "R",
+			"metascore": 69
+		}, {
+			"title": "A Quiet Place",
+			"rating": "PG-13",
+			"metascore": 82
+		}, {
+			"title": "Blockers",
+			"rating": "R",
+			"metascore": 69
+		}]
+	}]
+}
