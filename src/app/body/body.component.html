@@ -37,10 +37,10 @@
           </thead>
           <tbody>
             <tr *ngFor="let movie of movies">
-              <th scope="row"><a href="#">{{movie.title}}</a><br>{{movie.rating}}</th>
+              <th scope="row"><a routerLink="movies">{{movie.title}}</a><br>{{movie.rating}}</th>
             </tr>
             <tr>
-              <th scope="row">All New Movies>></th>
+              <th scope="row"><a routerLink="movies">All New Movies>></a></th>
             </tr>
         </table>
       </div>
@@ -53,10 +53,10 @@
           </thead>
           <tbody>
             <tr *ngFor="let game of games">
-              <th scope="row"><a href="#">{{game.title}}</a><br>{{game.platform}}</th>
+              <th scope="row"><a routerLink="games">{{game.title}}</a><br>{{game.platform}}</th>
             </tr>
             <tr>
-              <th scope="row">All New Games>></th>
+              <th scope="row"><a routerLink="games">All New Games>></a></th>
             </tr>
         </table>
       </div>
@@ -71,10 +71,10 @@
           </thead>
           <tbody>
             <tr *ngFor="let show of shows">
-              <th scope="row"><a href="#">{{show.title}}</a><br>{{show.channel}}</th>
+              <th scope="row"><a routerLink="tv">{{show.title}}</a><br>{{show.channel}}</th>
             </tr>
             <tr>
-              <th scope="row">All New TV>></th>
+              <th scope="row"><a routerLink="tv">All New TV>></a></th>
             </tr>
         </table>
       </div>
@@ -87,10 +87,10 @@
           </thead>
           <tbody>
             <tr *ngFor="let album of albums">
-              <th scope="row"><a href="#">{{album.title}}</a><br>{{album.artist}}</th>
+              <th scope="row"><a routerLink="music">{{album.title}}</a><br>{{album.artist}}</th>
             </tr>
             <tr>
-              <th scope="row">All New Music>></th>
+              <th scope="row"><a routerLink="music">All New Music>></a></th>
             </tr>
         </table>
       </div>
