@@ -1,0 +1,43 @@
+{
+  "movies": [{
+    "title": "Bad Samaritan",
+    "rating": "R",
+    "metascore": 44
+  }, {
+    "title": "Traffik",
+    "rating": "R",
+    "metascore": 37
+  }, {
+    "title": "Super Troopers 2",
+    "rating": "R",
+    "metascore": 40
+  }, {
+    "title": "I Feel Pretty",
+    "rating": "PG-13",
+    "metascore": 48
+  }, {
+    "title": "Sgt. Stubby: An American Hero",
+    "rating": "PG",
+    "metascore": 57
+  }, {
+    "title": "Rampage",
+    "rating": "PG-13",
+    "metascore": 45
+  }, {
+    "title": "Blumhouse's Truth or Dare",
+    "rating": "PG-13",
+    "metascore": 35
+  }, {
+    "title": "Beirut",
+    "rating": "R",
+    "metascore": 69
+  }, {
+    "title": "A Quiet Place",
+    "rating": "PG-13",
+    "metascore": 82
+  }, {
+    "title": "Blockers",
+    "rating": "R",
+    "metascore": 69
+  }]
+}

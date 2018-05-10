@@ -64,5 +64,131 @@
 			"rating": "R",
 			"metascore": 69
 		}]
-	}]
+	}, {
+		"games": [{
+			"title": "Jotun: Valhalla Edition",
+			"platform": "Switch",
+			"metascore": 75
+		}, {
+			"title": "BattleTech",
+			"platform": "PC",
+			"metascore": 78
+		}, {
+			"title": "The Swords of Ditto",
+			"platform": "PS4",
+			"metascore": 74
+		}, {
+			"title": "Gal*Gun 2",
+			"platform": "Switch",
+			"metascore": 64
+		}, {
+			"title": "South Park: The Fractured But Whole",
+			"platform": "Switch",
+			"metascore": 81
+		}, {
+			"title": "Nintendo Labo: Toycon 01 Variety Kit",
+			"platform": "Switch",
+			"metascore": 76
+		}, {
+			"title": "Manticore: Galaxy on Fire",
+			"platform": "Switch",
+			"metascore": 69
+		}, {
+			"title": "Yakuza 6: The Song of Life",
+			"platform": "PS4",
+			"metascore": 83
+		}, {
+			"title": "Football Manager Touch 2018",
+			"platform": "Switch",
+			"metascore": 76
+		}, {
+			"title": "Dead In Vinland",
+			"platform": "PC",
+			"metascore": 79
+				}]
+	}, {
+		"shows": [{
+			"title": "Sweetbitter: Season 1",
+			"channel": "Starz",
+			"metascore": 48
+		}, {
+			"title": "Bobby Kennedy for President",
+			"channel": "Netflix",
+			"metascore": 72
+		}, {
+			"title": "Genius (2017): Season 2",
+			"channel": "National Geographic",
+			"metascore": 52
+		}, {
+			"title": "Elvis Presley: The Searcher",
+			"channel": "HBO",
+			"metascore": 84
+		}, {
+			"title": "Rellik: Season 1",
+			"channel": "Cinemax",
+			"metascore": 51
+		}, {
+			"title": "Lost in Space (2018): Season 1",
+			"channel": "Netflix",
+			"metascore": 76
+		}, {
+			"title": "Andre the Giant: Season 1",
+			"channel": "HBO",
+			"metascore": 76
+		}, {
+			"title": "Killing Eve: Season 1",
+			"channel": "BBC",
+			"metascore": 83
+		}, {
+			"title": "Howards End",
+			"channel": "Starz",
+			"metascore": 86
+		}, {
+			"title": "Paterno",
+			"channel": "HBO",
+			"metascore": 68
+				}]
+	}, {
+		"albums": [{
+			"title": "World's Strongest Man",
+			"artist": "Gaz Coombes",
+			"metascore": 83
+		}, {
+			"title": "Knock Knock",
+			"artist": "DJ Koze",
+			"metascore": 83
+		}, {
+			"title": "The Horizon Laughed",
+			"artist": "Damien Jurado",
+			"metascore": 72
+		}, {
+			"title": "Dove",
+			"artist": "Belly",
+			"metascore": 71
+		}, {
+			"title": "Good Thing",
+			"artist": "Leon Bridges",
+			"metascore": 74
+		}, {
+			"title": "Vive La Void",
+			"artist": "Vive La Void",
+			"metascore": 71
+		}, {
+			"title": "Music for Installtions [Box Set]",
+			"artist": "Brian Eno",
+			"metascore": 79
+		}, {
+			"title": "Panic Blooms",
+			"artist": "Black Moth Super Rainbow",
+			"metascore": 69
+		}, {
+			"title": "Caer",
+			"artist": "Twin Shadow",
+			"metascore": 67
+		}, {
+			"title": "Last Will Standing",
+			"artist": "Willie Nelson",
+			"metascore": 81		
+						}]
+		}]
 }
