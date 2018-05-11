@@ -12,3 +12,11 @@
   min-width: 175px;
   text-align: center;
 }
+a{
+  color: black;
+}
+a:hover {
+  color: gold;
+  text-decoration: none;
+  cursor: pointer;
+}

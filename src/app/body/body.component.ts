@@ -20,6 +20,8 @@ export class BodyComponent implements OnInit, DoCheck {
 
   private user;
 
+  currentRoute: string = this.router.url;
+
   constructor(private router: Router, private mediaService: MediaService) {  }
 
 
