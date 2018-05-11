@@ -6,9 +6,39 @@
   min-width: 500px;
   border-radius: 30px;
 }
-@@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
+  #search {
+    width: 600px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #search {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #search {
+    width: 800px;
+  }
+}
+@media screen and (min-width: 1700px) {
   #search {
     width: 900px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  #search {
+    width: 1000px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  #search {
+    width: 1100px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #search {
+    width: 1200px;
   }
 }
 .account {
