@@ -4,6 +4,7 @@ import { Thumb } from './models/thumb.model';
 import { EditorPicksComponent } from './editor-picks/editor-picks.component';
 import { BodyComponent } from './body/body.component';
 import { AuthenticationService } from './authentication.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,29 @@ import { AuthenticationService } from './authentication.service';
   providers: [AuthenticationService]
 })
 export class AppComponent {
+  user;
+  private isLoggedIN: Boolean;
+  private userName: String;
 
+  constructor(public authService: AuthenticationService, private router: Router) {
+    this.authService.user.subscribe(user => {
+      if (user === null) {
+        this.isLoggedIN = false;
+        this.router.navigate(['']);
+      } else {
+        this.isLoggedIN = true;
+        this.userName = user.displayName;
+        this.router.navigate([]);
+      }
+    });
+  }
+
+  login() {
+    this.authService.login();
+  }
+
+  logout() {
+    this.authService.logout();
+  }
 
 }
