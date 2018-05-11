@@ -20,6 +20,7 @@ A website created with Angular to recreate the <a href="www.metacritic.com">Meta
 * Add dropdown menus.
 * Build out additional media pages.
 * Implement working search bar.
+* Recreate dynamic bar graph for new and notable section - Thumbnail height should be based upon media's metascore.
 
 ## Setup/Installation Requirements
 
@@ -32,7 +33,7 @@ A website created with Angular to recreate the <a href="www.metacritic.com">Meta
 6. Enjoy!
 
 #### For Users
-1. Travel to deployed site at <a href="https://metacritic-clone.firebaseapp.com/">Firebase Hosting</a>
+1. Travel directly to deployed site at <a href="https://metacritic-clone.firebaseapp.com/">Firebase Hosting</a>
 
 
 ## Known Bugs
