@@ -38,7 +38,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let movie of movies | async">
-              <th scope="row"><a routerLink="movies">{{movie.title}}</a><br>{{movie.rating}}</th>
+              <th scope="row"><a routerLink="movies">{{movie.title}}</a><br><font color="grey">{{movie.rating}}</font></th>
               <th [class]="scoreColor(movie)" scope="row">{{movie.metascore}}</th>
             </tr>
             <tr>
@@ -56,7 +56,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let game of games | async">
-              <th scope="row"><a routerLink="games">{{game.title}}</a><br>{{game.platform}}</th>
+              <th scope="row"><a routerLink="games">{{game.title}}</a><br><font color="grey">{{game.platform}}</font></th>
               <th [class]="scoreColor(game)" scope="row">{{game.metascore}}</th>
             </tr>
             <tr>
@@ -76,7 +76,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let show of shows | async">
-              <th scope="row"><a routerLink="tv">{{show.title}}</a><br>{{show.channel}}</th>
+              <th scope="row"><a routerLink="tv">{{show.title}}</a><br><font color="grey">{{show.channel}}</font></th>
               <th [class]="scoreColor(show)" scope="row">{{show.metascore}}</th>
             </tr>
             <tr>
@@ -94,7 +94,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let album of albums | async">
-              <th scope="row"><a routerLink="music">{{album.title}}</a><br>{{album.artist}}</th>
+              <th scope="row"><a routerLink="music">{{album.title}}</a><br><font color="grey">{{album.artist}}</font></th>
               <th [class]="scoreColor(album)" scope="row">{{album.metascore}}</th>
             </tr>
             <tr>
