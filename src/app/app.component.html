@@ -31,13 +31,13 @@
       <li class="nav-item">
         <a class="nav-link" href="#"><font color="black">Reports</font></a>
       </li>
-      <li id="account" class="nav-item">
+      <li *ngIf="!isLoggedIn" class="nav-item account">
         <a class="nav-link" href="#"><font color="black">+Create Account</font></a>
       </li>
       <li *ngIf="!isLoggedIn">
         <a class="nav-link" (click)="login()"><font color="black">Login</font></a>
       </li>
-      <li *ngIf="isLoggedIn">
+      <li *ngIf="isLoggedIn" class="nav-item account">
         <a class="nav-link"><font color="black">{{userName}}</font></a>
       </li>
       <li *ngIf="isLoggedIn">
