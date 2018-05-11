@@ -1,6 +1,6 @@
 # MetaCritic Site Rebuild
 
-#### A program that recreates the review aggregate website Metacritic's front page. 5/4/2018
+#### A program that recreates the review aggregate website Metacritic's front page. 5/11/2018
 
 #### By **Garnett Puett**
 
@@ -25,12 +25,13 @@ A website created with Angular to recreate the <a href="www.metacritic.com">Meta
 #### For Developers
 1. Clone this repository
 2. Copy "media.json" in the app folder of this repository and upload to firebase.
-3. Run "npm install" from the root folder in terminal
-4. Run "ng serve --open" and the page will open in the browser
-5. Enjoy!
+3. Add Firebase to the webapp and save the configuration as api-keys.ts in the app folder.
+4. Run "npm install" from the root folder in terminal
+5. Run "ng serve --open" and the page will open in the browser
+6. Enjoy!
 
 #### For Users
-1. Travel to deployed site at <a href="#">Firebase Hosting</a>
+1. Travel to deployed site at <a href="https://metacritic-clone.firebaseapp.com/">Firebase Hosting</a>
 
 
 ## Known Bugs
