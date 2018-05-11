@@ -32,12 +32,14 @@
         <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">Movies</th>
+              <th scope="col"><strong><font size=3>Movies</font></strong></th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
             <tr *ngFor="let movie of movies | async">
               <th scope="row"><a routerLink="movies">{{movie.title}}</a><br>{{movie.rating}}</th>
+              <th scope="row">{{movie.metascore}}</th>
             </tr>
             <tr>
               <th scope="row"><a routerLink="movies">All New Movies>></a></th>
@@ -48,12 +50,14 @@
         <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">Games</th>
+              <th scope="col"><strong><font size=3>Games</font></strong></th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
             <tr *ngFor="let game of games | async">
               <th scope="row"><a routerLink="games">{{game.title}}</a><br>{{game.platform}}</th>
+              <th scope="row">{{game.metascore}}</th>
             </tr>
             <tr>
               <th scope="row"><a routerLink="games">All New Games>></a></th>
@@ -66,12 +70,14 @@
         <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">TV</th>
+              <th scope="col"><strong><font size=3>TV</font></strong></th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
             <tr *ngFor="let show of shows | async">
               <th scope="row"><a routerLink="tv">{{show.title}}</a><br>{{show.channel}}</th>
+              <th scope="row">{{show.metascore}}</th>
             </tr>
             <tr>
               <th scope="row"><a routerLink="tv">All New TV>></a></th>
@@ -82,12 +88,14 @@
         <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">Music</th>
+              <th scope="col"><strong><font size=3>Music</font></strong></th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
             <tr *ngFor="let album of albums | async">
               <th scope="row"><a routerLink="music">{{album.title}}</a><br>{{album.artist}}</th>
+              <th scope="row">{{album.metascore}}</th>
             </tr>
             <tr>
               <th scope="row"><a routerLink="music">All New Music>></a></th>
