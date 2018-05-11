@@ -6,6 +6,7 @@ import { GamesComponent } from './games/games.component';
 import { TvComponent } from './tv/tv.component';
 import { MusicComponent } from './music/music.component';
 import { HomeComponent } from './home/home.component';
+import { ReportsComponent } from './reports/reports.component';
 
 
 const appRoutes: Routes = [
@@ -28,6 +29,10 @@ const appRoutes: Routes = [
   {
     path: 'music',
     component: MusicComponent
+  },
+  {
+    path: 'reports',
+    component: ReportsComponent
   }
 ];
 

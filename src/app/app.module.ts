@@ -18,6 +18,7 @@ import { GamesComponent } from './games/games.component';
 import { TvComponent } from './tv/tv.component';
 import { MusicComponent } from './music/music.component';
 import { HomeComponent } from './home/home.component';
+import { ReportsComponent } from './reports/reports.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -35,7 +36,8 @@ export const firebaseConfig = {
     GamesComponent,
     TvComponent,
     MusicComponent,
-    HomeComponent
+    HomeComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,
