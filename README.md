@@ -21,6 +21,7 @@ A website created with Angular to recreate the <a href="www.metacritic.com">Meta
 * Build out additional media pages.
 * Implement working search bar.
 * Recreate dynamic bar graph for new and notable section - Thumbnail height should be based upon media's metascore.
+* Add a functional create account feature.
 
 ## Setup/Installation Requirements
 

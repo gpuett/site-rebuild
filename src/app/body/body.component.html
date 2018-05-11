@@ -13,7 +13,7 @@
         <div class="col col-md-10">
         </div>
         <div class="col col-md-2">
-          <a id="more" href="#"><strong>See more >></strong></a>
+          <a id="more" routerLink="movies"><strong>See more >></strong></a>
         </div>
       </div>
       <div class="image row">
@@ -23,7 +23,7 @@
       </div>
       <div class="row titles">
         <div class="col col-md" *ngFor="let thumb of thumbs | async">
-          <a href="#">{{thumb.title}}</a>
+          <a routerLink="movies">{{thumb.title}}</a>
         </div>
       </div>
     </div>
