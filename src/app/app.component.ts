@@ -14,16 +14,16 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   user;
-  private isLoggedIN: Boolean;
+  private isLoggedIn: Boolean;
   private userName: String;
 
   constructor(public authService: AuthenticationService, private router: Router) {
     this.authService.user.subscribe(user => {
-      if (user === null) {
-        this.isLoggedIN = false;
+      if (user == null) {
+        this.isLoggedIn = false;
         this.router.navigate(['']);
       } else {
-        this.isLoggedIN = true;
+        this.isLoggedIn = true;
         this.userName = user.displayName;
         this.router.navigate([]);
       }
