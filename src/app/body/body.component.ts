@@ -43,4 +43,14 @@ export class BodyComponent implements OnInit, DoCheck {
     this.albums = this.mediaService.getAlbums();
   }
 
+  scoreColor(media) {
+    if (media.metascore > 60) {
+      return 'favorableScore';
+    } else if (media.metascore >= 40) {
+      return 'mixedScore';
+    } else {
+      return 'unfavorableScore';
+    }
+  }
+
 }

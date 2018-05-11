@@ -52,6 +52,27 @@ img {
   font-size: 30px;
   text-align: center;
 }
-.score {
-
+.favorableScore {
+  padding-top: 18px;
+  padding-left: 20px;
+  border: 1px solid black;
+  background-color: #67CB35;
+  color: white;
+  font-size: 15px;
+}
+.mixedScore {
+  padding-top: 18px;
+  padding-left: 20px;
+  border: 1px solid black;
+  background-color: #FFCC32;
+  color: white;
+  font-size: 15px;
+}
+.unfavorableScore {
+  padding-top: 18px;
+  padding-left: 20px;
+  border: 1px solid black;
+  background-color: #FE0000;
+  color: white;
+  font-size: 15px;
 }
