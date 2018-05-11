@@ -24,9 +24,10 @@ A website created with Angular to recreate the <a href="www.metacritic.com">Meta
 
 #### For Developers
 1. Clone this repository
-2. Run "npm install" from the root folder in terminal
-3. Run "ng serve --open" and the page will open in the browser
-4. Enjoy!
+2. Copy "media.json" in the app folder of this repository and upload to firebase.
+3. Run "npm install" from the root folder in terminal
+4. Run "ng serve --open" and the page will open in the browser
+5. Enjoy!
 
 #### For Users
 1. Travel to deployed site at <a href="#">Firebase Hosting</a>
