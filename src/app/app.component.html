@@ -34,8 +34,12 @@
       <li id="account" class="nav-item">
         <a class="nav-link" href="#"><font color="black">+Create Account</font></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><font color="black">Login</font></a>
+      <li *ngIf="isLoggedIn">
+        <a>{{userName}}</a>
+        <a (click)="logout()">Log Out</a>
+      </li>
+      <li *ngIf="!isLoggedIn" class="nav-item">
+        <a class="nav-link" (click)="login()"><font color="black">Login</font></a>
       </li>
     </ul>
   </div>
